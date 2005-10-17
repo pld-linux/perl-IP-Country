@@ -9,7 +9,7 @@ Summary:	IP::Country - fast lookup of country codes from IP addresses
 Summary(pl):	IP::Country - szybkie okre¶lanie kodów pañstw na podstawie adresu IP
 Name:		perl-IP-Country
 Version:	2.18
-Release:	1
+Release:	3
 License:	Unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/authors/id/N/NW/NWETTERS/%{pdir}-%{pnam}-%{version}.tar.gz
