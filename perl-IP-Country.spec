@@ -9,13 +9,13 @@ Summary:	IP::Country - fast lookup of country codes from IP addresses
 Summary(pl):	IP::Country - szybkie okre¶lanie kodów pañstw na podstawie adresu IP
 Name:		perl-IP-Country
 Version:	2.18
-Release:	1
+Release:	2
 License:	Unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/authors/id/N/NW/NWETTERS/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	9fc08c51555f2e81b042ca749af0eee8
-BuildRequires:	perl-devel >= 1:5.8.0
-BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	perl-devel >= 1:5.6.1
+BuildRequires:	rpm-perlprov >= 4.0.2-112.1
 %if %{with tests}
 BuildRequires:	perl-Geography-Countries
 %endif
@@ -55,7 +55,7 @@ odwrotnego DNS i WHOIS.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor
+	INSTALLDIRS=site
 %{__make}
 
 %{?with_tests:%{__make} test}
@@ -72,7 +72,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc CHANGES INSTALL README
-%dir %{perl_vendorlib}/IP
-%{perl_vendorlib}/IP/*.pm
-%{perl_vendorlib}/IP/Country
+%dir %{perl_sitelib}/IP
+%{perl_sitelib}/IP/*.pm
+%{perl_sitelib}/IP/Country
 %{_mandir}/man3/*
