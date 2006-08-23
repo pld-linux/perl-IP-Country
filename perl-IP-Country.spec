@@ -9,7 +9,7 @@ Summary:	IP::Country - fast lookup of country codes from IP addresses
 Summary(pl):	IP::Country - szybkie okre¶lanie kodów pañstw na podstawie adresu IP
 Name:		perl-IP-Country
 Version:	2.21
-Release:	0.1
+Release:	1
 # "same as perl" but read pod, some parts are licensed by APNIC/LARNIC/ARIN/AFRNIC/RIPE databases
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -77,6 +77,7 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_bindir}/ip2cc
 %dir %{perl_vendorlib}/IP
 %{perl_vendorlib}/IP/*.pm
+%{perl_vendorlib}/IP/Authority
 %{perl_vendorlib}/IP/Country
 %{_mandir}/man1/*
 %{_mandir}/man3/*
