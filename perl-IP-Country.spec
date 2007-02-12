@@ -6,7 +6,7 @@
 %define	pdir	IP
 %define	pnam	Country
 Summary:	IP::Country - fast lookup of country codes from IP addresses
-Summary(pl):	IP::Country - szybkie okre¶lanie kodów pañstw na podstawie adresu IP
+Summary(pl.UTF-8):   IP::Country - szybkie okreÅ›lanie kodÃ³w paÅ„stw na podstawie adresu IP
 Name:		perl-IP-Country
 Version:	2.21
 Release:	1
@@ -38,18 +38,18 @@ the client herself, this is probably good enough for most log analysis
 applications, and under test has proved to be as accurate as
 reverse-DNS and WHOIS lookup.
 
-%description -l pl
-Okre¶lanie kraju pochodzenia klienta przy u¿yciu samego adresu IP mo¿e
-byæ trudne. Sprawdzanie nazwy domeny zwi±zanej z adresem mo¿e byæ
-trochê pomocne, ale wiele adresów IP nie maj± odwrotnego odwzorowania
-na ¿adn± u¿yteczn± domenê, a najpopularniejsza domena (.com) nie
-pomaga w okre¶leniu kraju.
+%description -l pl.UTF-8
+OkreÅ›lanie kraju pochodzenia klienta przy uÅ¼yciu samego adresu IP moÅ¼e
+byÄ‡ trudne. Sprawdzanie nazwy domeny zwiÄ…zanej z adresem moÅ¼e byÄ‡
+trochÄ™ pomocne, ale wiele adresÃ³w IP nie majÄ… odwrotnego odwzorowania
+na Å¼adnÄ… uÅ¼ytecznÄ… domenÄ™, a najpopularniejsza domena (.com) nie
+pomaga w okreÅ›leniu kraju.
 
-Ten modu³ jest dostarczany wraz z baz± danych krajów, do których
-przypisano ró¿ne adresy IP. Choæ kraj przypisania bêdzie
-prawdopodobnie krajem zwi±zanym raczej z du¿ym ISP ni¿ samym klientem,
-jest to zwykle wystarczaj±ce do wiêkszo¶ci analiz logów aplikacji, a
-testy dowiod³y, ¿e jest to tak samo dok³adne, jak odwzorowania
+Ten moduÅ‚ jest dostarczany wraz z bazÄ… danych krajÃ³w, do ktÃ³rych
+przypisano rÃ³Å¼ne adresy IP. ChoÄ‡ kraj przypisania bÄ™dzie
+prawdopodobnie krajem zwiÄ…zanym raczej z duÅ¼ym ISP niÅ¼ samym klientem,
+jest to zwykle wystarczajÄ…ce do wiÄ™kszoÅ›ci analiz logÃ³w aplikacji, a
+testy dowiodÅ‚y, Å¼e jest to tak samo dokÅ‚adne, jak odwzorowania
 odwrotnego DNS i WHOIS.
 
 %prep
