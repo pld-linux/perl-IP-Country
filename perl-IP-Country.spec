@@ -6,7 +6,7 @@
 %define	pdir	IP
 %define	pnam	Country
 Summary:	IP::Country - fast lookup of country codes from IP addresses
-Summary(pl.UTF-8):   IP::Country - szybkie określanie kodów państw na podstawie adresu IP
+Summary(pl.UTF-8):	IP::Country - szybkie określanie kodów państw na podstawie adresu IP
 Name:		perl-IP-Country
 Version:	2.21
 Release:	1
