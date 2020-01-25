@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	IP
 %define	pnam	Country
 Summary:	IP::Country - fast lookup of country codes from IP addresses
