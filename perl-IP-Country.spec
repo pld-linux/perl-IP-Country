@@ -8,7 +8,7 @@ Summary:	IP::Country - fast lookup of country codes from IP addresses
 Summary(pl.UTF-8):	IP::Country - szybkie określanie kodów państw na podstawie adresu IP
 Name:		perl-IP-Country
 Version:	2.28
-Release:	1
+Release:	2
 # "same as perl" but read pod, some parts are licensed by APNIC/LARNIC/ARIN/AFRNIC/RIPE databases
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
